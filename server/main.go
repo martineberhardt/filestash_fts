@@ -7,7 +7,7 @@ import (
 	. "github.com/mickael-kerjean/filestash/server/common"
 	. "github.com/mickael-kerjean/filestash/server/ctrl"
 	. "github.com/mickael-kerjean/filestash/server/middleware"
-	_ "github.com/mickael-kerjean/filestash/server/plugin"
+	_ "github.com/martineberhardt/filestash_fts/server/plugin"
 	"net/http"
 	"net/http/pprof"
 	"os"
