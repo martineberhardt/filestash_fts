@@ -13,7 +13,7 @@ RUN apk add make git && \
     make build_frontend
 
 # STEP3: BUILD THE BACKEND
-FROM golang:1.19-buster AS builder_backend
+FROM golang:1.20-buster AS builder_backend
 WORKDIR /home/
 COPY --from=builder_frontend /home/ ./
 RUN apt-get update > /dev/null && \
