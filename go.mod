@@ -1,4 +1,4 @@
-module github.com/mickael-kerjean/filestash
+module github.com/martineberhardt/filestash_fts
 
 go 1.20
 
